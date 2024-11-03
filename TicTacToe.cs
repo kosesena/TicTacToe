@@ -8,8 +8,8 @@ namespace TicTacToe
         //Oyun tahtasını temsil eden karakter dizisi
         static char[] board = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
        
-        //Variable to track the current player: 1=X(Player1),2=0(Player2)
-        //Şu anki oyuncuyu takip eden değişken: 1=X(Oyuncu1),2=0(Oyuncu2)
+        //Variable to track the current player: 1=X(Player1),2=O(Player2)
+        //Şu anki oyuncuyu takip eden değişken: 1=X(Oyuncu1),2=O(Oyuncu2)
         static int currentPlayer = 1; 
         
         //Variable to store the player's choice of board position 
